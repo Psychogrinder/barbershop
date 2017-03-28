@@ -34,3 +34,11 @@ body{
   line-height: 30px;
   color: #000000;
 }
+
+body{
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
