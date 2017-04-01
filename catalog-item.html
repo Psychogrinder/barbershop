@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог товаров</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="catalog">
-      <div class="container">
-        <div class="logo-header">
-          <a href="#"><img src="img/logo.png" alt=""></a>
-        </div>
-        <nav class="main-navigation">
+    <header class="other-header">
+      <div class="container clearfix">
+        <nav class="main-navigation-shop">
           <ul>
+            <li><a href="#"><img src="img/logo-shop.png" alt=""></a></li>
             <li><a href="#">ИНФОРМАЦИЯ</a></li>
             <li><a href="#">НОВОСТИ</a></li>
             <li><a href="#">ПРАЙС-ЛИСТ</a></li>
@@ -24,46 +23,52 @@
         </div>
       </div>
     </header>
-    <main class="catalog-item">
-      <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1>
-      <div class="breadcrumbs">
-        <a href="#">ГЛАВНАЯ</a>
-        <a href="#">МАГАЗИН</a>
-        <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
-        <span>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</span>
+    <main class="catalog-content container clearfix">
+      <div class="product-title">
+        <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1>
+        <div class="breadcrumbs">
+          <a href="#">ГЛАВНАЯ</a>
+          <a href="#">МАГАЗИН</a>
+          <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+          <span>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</span>
+        </div>
       </div>
-      <section class="product-photos">
+      <section class="product-photos clearfix">
         <div class="product-photo-large">
-          <img src="https://placeholdit.imgix.net/~text?txtsize=14&txt=450%C3%97300&w=150&h=100" alt="">
+          <img src="img/product-large.jpg" alt="">
         </div>
         <div class="product-photo-preview">
-          <img src="https://placeholdit.imgix.net/~text?txtsize=14&txt=150%C3%97100&w=150&h=100" alt="">
+          <img src="img/product-preview-1.jpg" alt="">
         </div>
         <div class="product-photo-preview">
-          <img src="https://placeholdit.imgix.net/~text?txtsize=14&txt=150%C3%97100&w=150&h=100" alt="">
+          <img src="img/product-preview-2.jpg" alt="">
         </div>
         <div class="product-photo-preview">
-          <img src="https://placeholdit.imgix.net/~text?txtsize=14&txt=150%C3%97100&w=150&h=100" alt="">
+          <img src="img/product-preview-3.jpg" alt="">
         </div>
       </section>
-      <section class="product-description">
-        <span class="availability">ЕСТЬ В НАЛИЧИИ</span>
-        <span class="product-id">АРТИКУЛ:DEXTER-AE</span>
-        <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-        <div class="price">2900 РУБ.</div>
-        <button type="button" class="btn" name="buy-btn">КУПИТЬ</button>
-        <h2>В НАБОР ВХОДЯТ:</h2>
-        <ul class="equipment">
-          <li>СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
-          <li>УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
-          <li>КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)</li>
-          <li>КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)</li>
-          <li>УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА</li>
-        </ul>
+      <section class="product-description clearfix">
+        <div class="about-product">
+          <span class="availability">ЕСТЬ В НАЛИЧИИ</span>
+          <span class="product-id">АРТИКУЛ:DEXTER-AE</span>
+          <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+          <div class="price">2900 РУБ.</div>
+          <button type="button" class="btn" name="buy-btn">КУПИТЬ</button>
+        </div>
+        <div class="product-equipment">
+          <h2>В НАБОР ВХОДЯТ:</h2>
+          <ul class="equipment">
+            <li>СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
+            <li>УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
+            <li>КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)</li>
+            <li>КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)</li>
+            <li>УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА</li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="catalog">
-      <div class="container">
+    <footer class="main-footer">
+      <div class="container clearfix">
         <section class="footer-contacts">
           БАРБЕРШОП «БОРОДИНСКИЙ»<br>
           АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
