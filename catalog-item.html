@@ -2,10 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Каталог товаров</title>
+    <title>Набор для путешествий</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="catalog-page">
     <header class="other-header">
       <div class="container clearfix">
         <nav class="main-navigation-shop">
@@ -27,9 +29,9 @@
       <div class="product-title">
         <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1>
         <div class="breadcrumbs">
-          <a href="#">ГЛАВНАЯ</a>
-          <a href="#">МАГАЗИН</a>
-          <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+          <a href="#" class="breadcrumbs-item">ГЛАВНАЯ</a>
+          <a href="#" class="breadcrumbs-item">МАГАЗИН</a>
+          <a href="#" class="breadcrumbs-item">СРЕДСТВА ДЛЯ УХОДА</a>
           <span>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</span>
         </div>
       </div>
@@ -48,12 +50,14 @@
         </div>
       </section>
       <section class="product-description">
-        <div class="about-product">
+        <div class="about-product clearfix">
           <span class="availability">ЕСТЬ В НАЛИЧИИ</span>
           <span class="product-id">АРТИКУЛ:DEXTER-AE</span>
           <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-          <div class="price">2900 РУБ.</div>
-          <button type="button" class="btn" name="buy-btn">КУПИТЬ</button>
+          <div class="price-buttons">
+            <div class="btn price">2900 РУБ.</div>
+            <a class="btn">КУПИТЬ</a>
+          </div>
         </div>
         <div class="product-equipment">
           <h2>В НАБОР ВХОДЯТ:</h2>
@@ -83,7 +87,7 @@
         </section>
         <section class="footer-copyright">
           <p>РАЗРАБОТАНО:</p>
-          <a href="#">HTMLACADEMY.RU</a>
+          <a href="#" class="btn">HTMLACADEMY.RU</a>
         </section>
       </div>
     </footer>
