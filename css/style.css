@@ -356,7 +356,7 @@ body{
 .custom-list-1 li::before {
   content: "";
   position: absolute;
-  top: 8px;
+  top: 5px;
   left: 0;
 
   width: 8px;
