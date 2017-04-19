@@ -1126,10 +1126,8 @@ button[name="filter-result"]{
   right: -34px;
   width: 22px;
   height: 22px;
-
+  background-color: transparent;
   font-size: 0;
-
-  
   border: 0;
   cursor: pointer;
 }
